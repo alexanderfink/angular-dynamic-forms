@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, Component, inject, OnInit } from '@angular/core';
-import { FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { DynamicFormRendererComponent } from '../dynamic-form/dynamic-form-renderer/dynamic-form-renderer.component';
 import { DynamicInputResolver } from '../dynamic-form/dynamic-input-resolver.service';
 import { CommonModule } from '@angular/common';

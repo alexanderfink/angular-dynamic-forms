@@ -1,4 +1,4 @@
-import { Component, HostBinding, inject } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
 import { DynamicBaseInput, dynamicControlProvider } from '../dynamic-base-input/dynamic-base-input.directive';
 import { NgComponentOutlet, NgIf } from '@angular/common';
 import { FormGroup, ReactiveFormsModule } from '@angular/forms';
