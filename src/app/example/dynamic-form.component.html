@@ -1,0 +1,7 @@
+<ng-container *ngIf="configForTest">
+  <form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+    <app-dynamic-form-renderer [formControls]="configForTest.controls"></app-dynamic-form-renderer>
+    <button>Absenden</button>
+  </form>
+</ng-container>
+<button type="button" (click)="addControl()">Add Control</button>

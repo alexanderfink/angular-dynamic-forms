@@ -1,0 +1,5 @@
+<ng-container *ngFor="let config of formControls | keyvalue : sortControls">
+  <ng-container [ngComponentOutlet]="dynamicInputResolver.resolve(config.value.controlType) | async"
+                [ngComponentOutletInjector]="config.key | dynamicControlInjector : config.value"
+  ></ng-container>
+</ng-container>

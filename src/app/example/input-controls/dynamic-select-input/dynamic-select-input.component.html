@@ -1,0 +1,4 @@
+<span>{{ controlData.config.label }}</span>
+<select [formControlName]="controlData.controlKey" [value]="controlData.config.value">
+  <option *ngFor="let option of controlData.config.options" [value]="option.value">{{ option.label }}</option>
+</select>

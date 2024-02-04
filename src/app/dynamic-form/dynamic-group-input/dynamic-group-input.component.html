@@ -1,0 +1,5 @@
+<ng-container *ngIf="controlData.config.controls">
+  <ng-container [formGroupName]="controlData.controlKey">
+    <app-dynamic-form-renderer [formControls]="controlData.config.controls"></app-dynamic-form-renderer>
+  </ng-container>
+</ng-container>
